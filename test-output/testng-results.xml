@@ -2,64 +2,64 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T15:52:55 EEST" name="All Test Suite" finished-at="2025-04-28T15:53:02 EEST" duration-ms="6167">
+  <suite started-at="2025-05-03T20:39:17 EEST" name="All Test Suite" finished-at="2025-05-03T20:39:22 EEST" duration-ms="5533">
     <groups>
     </groups>
-    <test started-at="2025-04-28T15:52:55 EEST" name="GoRestAPIwithHTTPClient" finished-at="2025-04-28T15:53:02 EEST" duration-ms="6167">
+    <test started-at="2025-05-03T20:39:17 EEST" name="GoRestAPIwithHTTPClient" finished-at="2025-05-03T20:39:22 EEST" duration-ms="5533">
       <class name="tests.PatchApiTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.PatchApiTest@8317c52]" started-at="2025-04-28T15:52:56 EEST" name="SetUp" finished-at="2025-04-28T15:52:56 EEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:tests.PatchApiTest@36d585c]" started-at="2025-05-03T20:39:17 EEST" name="SetUp" finished-at="2025-05-03T20:39:17 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="partiallyUpdateUser()[pri:0, instance:tests.PatchApiTest@8317c52]" started-at="2025-04-28T15:52:59 EEST" name="partiallyUpdateUser" finished-at="2025-04-28T15:52:59 EEST" duration-ms="413" status="PASS">
+        <test-method signature="partiallyUpdateUser()[pri:0, instance:tests.PatchApiTest@36d585c]" started-at="2025-05-03T20:39:20 EEST" name="partiallyUpdateUser" finished-at="2025-05-03T20:39:20 EEST" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- partiallyUpdateUser -->
       </class> <!-- tests.PatchApiTest -->
       <class name="tests.PostApiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PostApiTest@1329eff]" started-at="2025-04-28T15:52:56 EEST" name="setUp" finished-at="2025-04-28T15:52:56 EEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PostApiTest@3943a2be]" started-at="2025-05-03T20:39:17 EEST" name="setUp" finished-at="2025-05-03T20:39:17 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createUserTest()[pri:0, instance:tests.PostApiTest@1329eff]" started-at="2025-04-28T15:52:56 EEST" name="createUserTest" finished-at="2025-04-28T15:52:58 EEST" duration-ms="1744" status="PASS">
+        <test-method signature="createUserTest()[pri:0, instance:tests.PostApiTest@3943a2be]" started-at="2025-05-03T20:39:17 EEST" name="createUserTest" finished-at="2025-05-03T20:39:19 EEST" duration-ms="1813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserTest -->
       </class> <!-- tests.PostApiTest -->
       <class name="tests.GetApiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GetApiTest@68e965f5]" started-at="2025-04-28T15:52:56 EEST" name="setUp" finished-at="2025-04-28T15:52:56 EEST" duration-ms="640" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GetApiTest@671a5887]" started-at="2025-05-03T20:39:17 EEST" name="setUp" finished-at="2025-05-03T20:39:17 EEST" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getUserDetailsTest()[pri:0, instance:tests.GetApiTest@68e965f5]" started-at="2025-04-28T15:53:00 EEST" name="getUserDetailsTest" finished-at="2025-04-28T15:53:00 EEST" duration-ms="716" status="PASS">
+        <test-method signature="getUserDetailsTest()[pri:0, instance:tests.GetApiTest@671a5887]" started-at="2025-05-03T20:39:21 EEST" name="getUserDetailsTest" finished-at="2025-05-03T20:39:21 EEST" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserDetailsTest -->
-        <test-method signature="getAllUsersTest()[pri:0, instance:tests.GetApiTest@68e965f5]" started-at="2025-04-28T15:53:00 EEST" name="getAllUsersTest" finished-at="2025-04-28T15:53:01 EEST" duration-ms="776" status="PASS">
+        <test-method signature="getAllUsersTest()[pri:0, instance:tests.GetApiTest@671a5887]" started-at="2025-05-03T20:39:21 EEST" name="getAllUsersTest" finished-at="2025-05-03T20:39:22 EEST" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUsersTest -->
-        <test-method signature="getAllUsersParamsTest()[pri:0, instance:tests.GetApiTest@68e965f5]" started-at="2025-04-28T15:53:01 EEST" name="getAllUsersParamsTest" finished-at="2025-04-28T15:53:02 EEST" duration-ms="411" status="PASS">
+        <test-method signature="getAllUsersParamsTest()[pri:0, instance:tests.GetApiTest@671a5887]" started-at="2025-05-03T20:39:22 EEST" name="getAllUsersParamsTest" finished-at="2025-05-03T20:39:22 EEST" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUsersParamsTest -->
       </class> <!-- tests.GetApiTest -->
       <class name="tests.DeleteApiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DeleteApiTest@76f2bbc1]" started-at="2025-04-28T15:52:55 EEST" name="setUp" finished-at="2025-04-28T15:52:56 EEST" duration-ms="54" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DeleteApiTest@87a85e1]" started-at="2025-05-03T20:39:17 EEST" name="setUp" finished-at="2025-05-03T20:39:17 EEST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="deleteUserTest()[pri:0, instance:tests.DeleteApiTest@76f2bbc1]" started-at="2025-04-28T15:52:59 EEST" name="deleteUserTest" finished-at="2025-04-28T15:53:00 EEST" duration-ms="415" status="PASS">
+        <test-method signature="deleteUserTest()[pri:0, instance:tests.DeleteApiTest@87a85e1]" started-at="2025-05-03T20:39:20 EEST" name="deleteUserTest" finished-at="2025-05-03T20:39:21 EEST" duration-ms="788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUserTest -->
       </class> <!-- tests.DeleteApiTest -->
       <class name="tests.PutApiTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PutApiTest@78ffe6dc]" started-at="2025-04-28T15:52:56 EEST" name="setUp" finished-at="2025-04-28T15:52:56 EEST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PutApiTest@69fb6037]" started-at="2025-05-03T20:39:17 EEST" name="setUp" finished-at="2025-05-03T20:39:17 EEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="updateUser()[pri:0, instance:tests.PutApiTest@78ffe6dc]" started-at="2025-04-28T15:52:58 EEST" name="updateUser" finished-at="2025-04-28T15:52:59 EEST" duration-ms="895" status="PASS">
+        <test-method signature="updateUser()[pri:0, instance:tests.PutApiTest@69fb6037]" started-at="2025-05-03T20:39:19 EEST" name="updateUser" finished-at="2025-05-03T20:39:20 EEST" duration-ms="547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUser -->
