@@ -50,7 +50,9 @@ public class DeleteApiTest extends BaseRequest {
 
     @Test
     public void deleteUserTest() throws IOException, ProtocolException {
-        jsonData = new File("C:\\Users\\digger\\IdeaProjects\\GoRestAPIwithHTTPClient\\src\\test\\java\\data\\users.json");
+        String sysPath = System.getProperty("user.dir");
+        jsonData = new File(sysPath + "/src/test/java/data/users.json");
+        //jsonData = new File("C:\\Users\\digger\\IdeaProjects\\GoRestAPIwithHTTPClient\\src\\test\\java\\data\\users.json");
 
         //Jackson API
         mapper = new ObjectMapper();

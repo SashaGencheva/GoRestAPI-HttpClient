@@ -59,7 +59,9 @@ public class GetApiTest extends BaseRequest {
         headerMap = new HashMap<>();
         headerMap.put("Authorization", "Bearer " + accessToken);
 
-        jsonData = new File("C:\\Users\\digger\\IdeaProjects\\GoRestAPIwithHTTPClient\\src\\test\\java\\data\\users.json");
+        String sysPath = System.getProperty("user.dir");
+        jsonData = new File(sysPath + "/src/test/java/data/users.json");
+        //jsonData = new File("C:\\Users\\digger\\IdeaProjects\\GoRestAPIwithHTTPClient\\src\\test\\java\\data\\users.json");
 
         //Create ObjectMapper instance
         mapper = new ObjectMapper();

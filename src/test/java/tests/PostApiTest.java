@@ -70,7 +70,9 @@ public class PostApiTest extends BaseRequest {
         user = new Users(name, email, "male", "active"); //expected Users object
 
         //Object to json file
-        jsonData = new File("C:\\Users\\digger\\IdeaProjects\\GoRestAPIwithHTTPClient\\src\\test\\java\\data\\users.json");
+        String sysPath = System.getProperty("user.dir");
+        jsonData = new File(sysPath + "/src/test/java/data/users.json");
+        //jsonData = new File("C:\\Users\\digger\\IdeaProjects\\GoRestAPIwithHTTPClient\\src\\test\\java\\data\\users.json");
         mapper.writeValue(jsonData, user);
 
         //Java object to json in String (request body)
