@@ -16,7 +16,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 
-public class DeleteApiTest extends BaseRequest {
+public class DeleteUserTest extends BaseRequest {
     BaseRequest baseRequest;
     String baseUrl;
     String apiUrl;
@@ -52,7 +52,6 @@ public class DeleteApiTest extends BaseRequest {
     public void deleteUserTest() throws IOException, ProtocolException {
         String sysPath = System.getProperty("user.dir");
         jsonData = new File(sysPath + "/src/test/java/data/users.json");
-        //jsonData = new File("C:\\Users\\digger\\IdeaProjects\\GoRestAPIwithHTTPClient\\src\\test\\java\\data\\users.json");
 
         //Jackson API
         mapper = new ObjectMapper();

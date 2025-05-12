@@ -4,27 +4,27 @@
     <test verbose="2" preserve-order="true"
           name="GoRestAPIwithHTTPClient">
         <classes>
-            <class name="tests.PostApiTest">
+            <class name="tests.CreateUserTest">
                 <methods>
                     <include name="createUserTest"/>
                 </methods>
             </class>
-            <class name="tests.PutApiTest">
+            <class name="tests.UpdateUserTest">
                 <methods>
                     <include name="updateUser"/>
                 </methods>
             </class>
-            <class name="tests.PatchApiTest">
+            <class name="tests.PartiallyUpdateUserTest">
                 <methods>
                     <include name="partiallyUpdateUser"/>
                 </methods>
             </class>
-            <class name="tests.DeleteApiTest">
+            <class name="tests.DeleteUserTest">
                 <methods>
                     <include name="deleteUserTest"/>
                 </methods>
             </class>
-            <class name="tests.GetApiTest">
+            <class name="tests.GetUserTest">
                 <methods>
                     <include name="getUserDetailsTest"/>
                     <include name="getAllUsersTest"/>

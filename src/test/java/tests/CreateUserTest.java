@@ -17,7 +17,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 
-public class PostApiTest extends BaseRequest {
+public class CreateUserTest extends BaseRequest {
     BaseRequest baseRequest;
     String baseUrl;
     String apiUrl;
@@ -72,7 +72,6 @@ public class PostApiTest extends BaseRequest {
         //Object to json file
         String sysPath = System.getProperty("user.dir");
         jsonData = new File(sysPath + "/src/test/java/data/users.json");
-        //jsonData = new File("C:\\Users\\digger\\IdeaProjects\\GoRestAPIwithHTTPClient\\src\\test\\java\\data\\users.json");
         mapper.writeValue(jsonData, user);
 
         //Java object to json in String (request body)

@@ -17,7 +17,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 
-public class PutApiTest extends BaseRequest {
+public class UpdateUserTest extends BaseRequest {
     BaseRequest baseRequest;
     String baseUrl;
     String apiUrl;
@@ -68,7 +68,6 @@ public class PutApiTest extends BaseRequest {
 
         String sysPath = System.getProperty("user.dir");
         jsonData = new File(sysPath + "/src/test/java/data/users.json");
-        //jsonData = new File("C:\\Users\\digger\\IdeaProjects\\GoRestAPIwithHTTPClient\\src\\test\\java\\data\\users.json");
 
         //Jackson API
         mapper = new ObjectMapper();
